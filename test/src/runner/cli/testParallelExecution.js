@@ -98,7 +98,7 @@ module.exports = {
           done(err);
           return;
         }
-        assert.equal(self.allArgs.length, 22);
+        assert.equal(self.allArgs.length, 25);
         assert.ok(path.join('sampletests', 'async', 'sample_1') in runner.runningProcesses);
         assert.ok(path.join('sampletests', 'before-after', 'sampleSingleTest_2') in runner.runningProcesses);
 
